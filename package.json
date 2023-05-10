@@ -1,7 +1,7 @@
 {
-  "name": "datashape-api",
+  "name": "express-server",
   "version": "1.0.0",
-  "description": "Datashape api server",
+  "description": "express-server",
   "scripts": {
     "start": "nodemon --config=nodemon.json",
     "build": "tsc"

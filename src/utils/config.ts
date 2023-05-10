@@ -8,10 +8,10 @@ type AppConfig = {
 };
 
 const config: AppConfig = {
-  port: parseInt(process.env.PORT || "4011", 10),
+  port: parseInt(process.env.PORT || "3001", 10),
   rootDir: path.join(__dirname, "..", "..", ".."),
   appEnv: (process.env.APP_ENV as AppConfig["appEnv"]) || "production",
-  prefix: "/nlp",
+  prefix: "",
 };
 
 export default config;

@@ -1,8 +1,8 @@
 import express, { Request, Response } from "express";
 const router = express.Router();
 
-router.get("/", async (req: Request, res: Response) => {
-  res.send("hello world");
+router.get("/ping", async (req: Request, res: Response) => {
+  res.send("pong");
 });
 
 export default router;
